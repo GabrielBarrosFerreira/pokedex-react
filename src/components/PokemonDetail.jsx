@@ -2,7 +2,7 @@
 import React from 'react';
 import { useParams, Link, Routes, Route } from 'react-router-dom';
 import { pokemons } from '../data.js';
-import PokemonStats from './PokemonStats';
+import PokemonStats from './PokemonStats.jsx';
 import PokemonMoves from './PokemonMoves';
 import './PokemonDetail.css';
 

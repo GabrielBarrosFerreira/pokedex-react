@@ -1,16 +1,41 @@
-# React + Vite
+Pokédex com React Router
+Este projeto é uma atividade prática para a disciplina de Frameworks Web I, desenvolvida para demonstrar o uso de roteamento em aplicações React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A aplicação consiste em uma pequena Pokédex que exibe uma lista de Pokémon e permite ao usuário navegar para ver detalhes específicos de cada um, incluindo status e ataques, utilizando rotas dinâmicas e aninhadas.
 
-Currently, two official plugins are available:
+✨ Funcionalidades
+Listagem de Pokémon: A página inicial (/) exibe uma grade com os Pokémon disponíveis.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Página de Detalhes: Ao clicar em um Pokémon, o usuário é levado para uma página de detalhes dinâmica (/pokemon/:id).
 
-## React Compiler
+Rotas Aninhadas: A página de detalhes contém sub-rotas para visualizar os "Status" (/pokemon/:id/stats) e "Ataques" (/pokemon/:id/moves) do Pokémon.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Estilização Customizada: Todos os componentes foram estilizados com CSS puro para criar uma interface agradável.
 
-## Expanding the ESLint configuration
+🚀 Tecnologias Utilizadas
+React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite
+
+React Router DOM
+
+🔧 Como Executar o Projeto Localmente
+Clone o repositório:
+
+git clone [https://github.com/SEU_USUARIO/pokedex-react.git](https://github.com/SEU_USUARIO/pokedex-react.git)
+
+Acesse a pasta do projeto:
+
+cd pokedex-react
+
+Instale as dependências:
+
+npm install
+
+Execute a aplicação:
+
+npm run dev
+
+A aplicação estará disponível em http://localhost:5173.
+
+👨‍💻 Autor: Gabriel Barros Ferreira
