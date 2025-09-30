@@ -1,0 +1,51 @@
+// src/data.js
+export const pokemons = [
+  {
+    id: 1,
+    name: 'Bulbasaur',
+    type: 'Grama / Venenoso',
+    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png',
+    stats: { hp: 45, attack: 49, defense: 49 },
+    moves: ['Vine Whip', 'Razor Leaf'],
+  },
+  {
+    id: 4,
+    name: 'Charmander',
+    type: 'Fogo',
+    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png',
+    stats: { hp: 39, attack: 52, defense: 43 },
+    moves: ['Ember', 'Scratch'],
+  },
+  {
+    id: 7,
+    name: 'Squirtle',
+    type: 'Água',
+    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png',
+    stats: { hp: 44, attack: 48, defense: 65 },
+    moves: ['Water Gun', 'Bubble'],
+  },
+  {
+    id: 25,
+    name: 'Pikachu',
+    type: 'Elétrico',
+    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
+    stats: { hp: 35, attack: 55, defense: 40 },
+    moves: ['Thunder Shock', 'Quick Attack'],
+  },
+  {
+    id: 39,
+    name: 'Jigglypuff',
+    type: 'Normal / Fada',
+    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png',
+    stats: { hp: 115, attack: 45, defense: 20 },
+    moves: ['Sing', 'Double Slap'],
+  },
+  {
+    id: 94,
+    name: 'Gengar',
+    type: 'Fantasma / Venenoso',
+    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png',
+    stats: { hp: 60, attack: 65, defense: 60 },
+    moves: ['Shadow Ball', 'Lick'],
+  },
+];

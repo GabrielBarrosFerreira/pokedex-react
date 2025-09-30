@@ -1,0 +1,46 @@
+/* src/components/PokemonDetail.css */
+.detail-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.pokemon-image-large {
+  max-width: 200px;
+  height: auto;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+.pokemon-info {
+  margin-top: 20px;
+}
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ef5350;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* Adicionar ao final de src/components/PokemonDetail.css */
+.sub-nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+.sub-nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #c62828;
+}
+.pokemon-sub-info {
+  text-align: left;
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 5px;
+}
